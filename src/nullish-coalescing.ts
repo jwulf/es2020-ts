@@ -1,5 +1,6 @@
 export function someFn(param?) {
-  const value = param || 10;
+  const resultFromLocalStorage = param;
+  const value = resultFromLocalStorage || 10;
   console.log(value);
 }
 
@@ -12,6 +13,7 @@ someFn(12);
 // With nullish coalescing
 
 // export function someFn(param?) {
-//   const value = param ?? 10;
+//   const resultFromLocalStorage = param;
+//   const value = resultFromLocalStorage ?? 10;
 //   console.log(value);
 // }

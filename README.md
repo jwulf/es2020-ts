@@ -5,6 +5,9 @@
 
 ## Optional chaining
 
+Dealing with properties of objects that may be undefined.
+
+See: [Implementing a maybe pattern using a TypeScript type guard](https://www.joshwulf.com/blog/2019/02/typescript-maybe/)
 ![](img/optional-chaining.png)
 
 Run:
@@ -12,6 +15,8 @@ Run:
 `npm run optional`
 
 ## Nullish coalescing
+
+Dealing with default values when falsy values are valid.
 
 ![](img/nullish-coalescing.png)
 
