@@ -1,0 +1,27 @@
+{
+  "name": "es2020-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Tests? What tests??\" && exit 0",
+    "optional": "tsc && node dst/optional-chain.js",
+    "nullish": "tsc && node dst/nullish-coalescing.js",
+    "promise": "tsc && node dst/promise-allSettled.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwulf/es2020-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwulf/es2020-ts/issues"
+  },
+  "homepage": "https://github.com/jwulf/es2020-ts#readme",
+  "dependencies": {
+    "@types/node": "^13.11.0",
+    "typescript": "^3.8.3"
+  }
+}
